@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioButtonActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_1"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_1"
+            android:text="Male"
+            android:checked="true"
+            android:textSize="20sp"
+            android:textColor="#ff6600"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_2"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textColor="#ff6600"/>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_2"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rg_1">
+
+        <RadioButton
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:id="@+id/rb_3"
+            android:text="Male"
+            android:checked="true"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/bg_radiobutton"/>
+        <RadioButton
+            android:id="@+id/rb_4"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_radiobutton"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Female"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>
