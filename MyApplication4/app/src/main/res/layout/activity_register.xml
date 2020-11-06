@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/rg_iv_head"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@mipmap/ic_launcher"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/rg_user_name"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请输入用户名"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/rg_password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/rg_re_password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/rg_phone"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:hint="请输入手机号码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="14sp"
+            android:id="@+id/radioMale"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="14sp"
+            android:id="@+id/radioFemale"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/btn_register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:text="注册"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>

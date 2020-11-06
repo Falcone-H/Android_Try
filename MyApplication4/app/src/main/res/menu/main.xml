@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_start"
+        android:title="开始游戏"/>
+    <item
+        android:id="@+id/menu_setting"
+        android:title="相关设置">
+        <menu>
+            <item
+                android:id="@+id/setting_music"
+                android:title="音乐设置"/>
+            <item
+                android:id="@+id/setting_view"
+                android:title="图像设置"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_over"
+        android:title="结束游戏"/>
+
+</menu>
